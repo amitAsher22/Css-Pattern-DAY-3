@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.section1{
+    display: flex;
+    place-items: center;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    gap: 20px;
+   
+  
+}
+
+
+.yellow{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    width: 40px;
+    height:40px;
+    border: 1px solid black;
+    
+   
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    gap: 10px;
+    
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    gap: 10px;
+}
